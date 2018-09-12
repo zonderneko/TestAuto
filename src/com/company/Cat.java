@@ -1,7 +1,5 @@
 package com.company;
 
-import jdk.internal.perf.Perf;
-import sun.plugin2.message.GetAppletMessage;
 
 /**
  * Created by Administrator on 9/12/2018.
@@ -18,6 +16,14 @@ public class Cat {
 
     public void getParam() {
         System.out.println("Cat parameters:");
-        System.out.println("Name:" + name + "Color:" + color + ", Age" + age + ", Weight:" + weight);
+        System.out.println("Name: " + name + ", Color: " + color + ", Age: " + age + ", Weight: " + weight);
+    }
+    Cat (String name, int age, String color, int weight) {
+        this.name = name;
+        this.age = age;
+        this.color = color;
+        this.weight = weight;
+    }
+    Cat(){
     }
 }
