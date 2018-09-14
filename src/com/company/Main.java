@@ -15,5 +15,6 @@ public class Main {
         Zhora.voice();
         BadCat as = new BadCat();
         as.voice();
+        Cycle.randmurr();
     }
 }
